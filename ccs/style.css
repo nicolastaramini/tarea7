@@ -1,0 +1,110 @@
+.contenedor{display: grid;
+grid-template-columns: 1fr;
+background-color:coral;}
+
+.cajitas1{display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:enter;
+    background-color:brown;
+        padding: 4px;
+        margin: 2em;
+        border: 2px;
+        color: aliceblue;}
+
+.cajitas2{display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:enter;
+    background-color: rgb(55, 99, 150);
+    padding: 4px;
+    margin: 2em;
+    border: 2px;
+    color: aliceblue; }
+
+.cajitas3{display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:enter;
+    background-color: #f30a0a;
+    padding: 4px;
+    margin: 2em;
+    border: 2px;
+    color: aliceblue;}
+
+.cajitas4{display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(179, 255, 0);
+    padding:4px;
+    margin:2em;
+    border:2px;
+    color: rgb(0, 3, 5);}
+
+.cajitas5{display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(255, 238, 0);
+    padding:4px;
+    margin:2em;
+    border:2px;
+    color: rgb(0, 4, 7);}
+
+.cajitas6{display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(255, 0, 140);
+    padding:4px;
+    margin:2em;
+    border:2px;
+    color: aliceblue;}
+
+.cajitas7{display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color: rgba(75, 3, 143, 0.959);
+    padding:4px;
+    margin:2em;
+    border:2px;
+    color: aliceblue;}
+
+.cajitas8{display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(3, 68, 68);
+    padding:4px;
+    margin:2em;
+    border:2px;
+    color: aliceblue;}
+
+.cajitas9{display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(83, 2, 66);
+    padding:4px;
+    margin:2em;
+    border:2px;
+    color: aliceblue;}
+
+.cajitas1 img{width: 60%;}
+.cajitas2 img{width: 60%;}
+.cajitas3 img{width: 60%;}
+.cajitas4 img{width: 60%;}
+.cajitas5 img{width: 60%;}
+.cajitas6 img{width: 60%;}
+.cajitas7 img{width: 60%;}
+.cajitas8 img{width: 60%;}
+.cajitas9 img{width: 60%;}
+
+@media(min-width:321px)
+{.contenedor{background-color: blueviolet; grid-template-columns: 1fr 1fr;}}
+
+@media(min-width:769px)
+{.contenedor{background-color: blue; grid-template-columns: 1fr 1fr 1fr;}}
+
